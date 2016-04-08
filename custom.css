@@ -1,13 +1,25 @@
-/*body {
-    background: url('img/balloon-2.jpg') center no-repeat fixed;
+body {
+    background: linear-gradient(
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.5)
+      ),
+    url('img/balloon-2.jpg') center no-repeat fixed;
     background-size: cover;
-}*/
-
-h2 {
-    color:Black;
-    text-align:left;
+    
 }
 
-button {
-    color: yellow;
+h2 {
+    color:#BFFFE5;
+    text-align:left;
+    font-family:'Brush Script MT', cursive;
+    font-size:70px;
+}
+
+#button {
+    color: #BFFFE5;
+}
+
+.container {
+   color:#BFFFE5;
+   font-size:30px;
 }
