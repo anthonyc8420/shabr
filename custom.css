@@ -15,11 +15,17 @@ h2 {
     font-size:70px;
 }
 
-#button {
-    color: #BFFFE5;
-}
-
 .container {
    color:#BFFFE5;
    font-size:30px;
+}
+
+h1 {
+    font-size:60px;
+    font-family:Consolas, monaco, monospace;
+    text-align:center;
+}
+
+contact {
+    
 }
