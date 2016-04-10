@@ -1,3 +1,4 @@
+
 body {
     background: linear-gradient(
         rgba(0,0,0,0.9),
@@ -5,7 +6,7 @@ body {
       ),
     url('img/balloon-2.jpg') center no-repeat fixed;
     background-size: cover;
-    
+     text-align: right ;
 }
 
 h2 {
@@ -15,17 +16,107 @@ h2 {
     font-size:70px;
 }
 
-.container {
+.container-fluid {
    color:#BFFFE5;
-   font-size:30px;
+   font-size:40px;
+
+   background-color:#E8C89C;
+   text-align:center;
+   font-family:'Brush Script MT', cursive;
 }
 
+.container {
+    text-align: center; 
+}
 h1 {
     font-size:60px;
-    font-family:Consolas, monaco, monospace;
+    font-family:'Brush Script MT', cursive;
     text-align:center;
+    color:#9CA3E8;
 }
 
  h3 {
     color:#FBEAFF;
+    font-family:'Brush Script MT', cursive;
+     text-align:center;
+    
 }
+
+ h4 {
+    color:#FBEAFF;
+    font-family:'Brush Script MT', cursive;
+     text-align:center;
+    font-size:50px;
+}
+
+ h5 {
+    color:#FBEAFF;
+    font-family:'Brush Script MT', cursive;
+     text-align:center;
+    font-size:30px;
+}
+
+ h6 {
+    color:#FBEAFF;
+    font-family:'Brush Script MT', cursive;
+     text-align:center;
+    font-size:20px;
+    
+     h7 {
+    color:#FE9D2F;
+    font-family:'Brush Script MT', cursive;
+     text-align:center;
+    font-size:10px;
+}
+
+.border {
+  border-color:red;  
+   text-align:center;
+   
+}
+
+gallery-photos {
+    text-align: center;
+    size:cover;
+}
+
+#title {
+    text-align: center;
+}
+
+carousel-inner {
+    text-align:center;
+}
+
+carousel-inner {
+    text-align:center;
+}
+
+    @media only screen and (min-width:768px) {
+        h1 { 
+            
+            font-size:10px;
+            
+        } 
+    }
+    
+        @media only screen and (min-width:992px) {
+        h1 { 
+            
+            font-size:30px;
+            
+        } 
+    }
+    
+        @media only screen and (min-width:1200px) {
+        h1 { 
+            
+            font-size:70px;
+            
+        } 
+    }
+    
+    
+    done {
+        font-size:20px;
+    }
